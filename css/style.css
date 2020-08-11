@@ -39,12 +39,16 @@ body {
     margin-right: 20px;
 }
 
+/*botoes*/
 .navegacao {
     grid-area: navegacao;
-    display: flex;
+    display: flex;  
     justify-content: flex-end;
     align-items: center;
     background-color: #555;
+}
+.navegacao {
+    display: none;
 }
 .navegacao > a {
     text-decoration: none !important;
@@ -60,7 +64,7 @@ body {
     align-items: center;
 }
 .navegacao > a:hover {
-background-color: rgb(79, 68, 224);
+    background-color: rgb(79, 68, 224);
 }
 .deliveryimg {
     height: 30px;
@@ -86,7 +90,6 @@ background-color: rgb(79, 68, 224);
 }
 
 .conteudo {
-
     overflow-y: scroll;
     position: relative;
     height: 100%;
@@ -97,11 +100,17 @@ background-color: rgb(79, 68, 224);
 
 .rodape {
     grid-area: rodape;
-    background-color: black;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     font-size: 1.2rem;
+}
+.rodape > a{
+    color: inherit;
+    color: rgb(83, 80, 80) !important;
+    text-decoration: none !important;
+    margin-bottom: 10px;
+    margin-right: 20px;
 }
 
 .rede{
@@ -127,6 +136,7 @@ background-color: rgb(79, 68, 224);
     display: flex;
     justify-content: space-between;
 }
+
 
 @media (max-width: 700px){
     .cabecalho > h1 {
