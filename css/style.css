@@ -7,7 +7,7 @@ body {
     height: 100vh;
     margin: 0px;
     display: grid;
-    grid-template-rows: 120px 60px 1fr 20px;
+    grid-template-rows: 120px 60px 1fr 60px;
     grid-template-columns: 1fr;    
     grid-template-areas: 
         "cabecalho"
@@ -131,3 +131,10 @@ background-color: rgb(79, 68, 224);
     justify-content: space-between;
 }
 
+@media (max-width: 700px){
+    .cabecalho > h1 {
+        margin: 0px;
+        font-weight: 100;
+        font-size: 2rem;
+    }
+}
