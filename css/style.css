@@ -164,3 +164,9 @@ background-color: rgb(79, 68, 224);
         margin-left: 5px;
     }
 }
+@media (max-width: 500px){
+    .list-group-item > div{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
