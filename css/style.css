@@ -47,8 +47,8 @@ body {
     align-items: center;
     background-color: #555;
 }
-.navegacao {
-    display: none;
+.promocao{
+    display: none !important;
 }
 .navegacao > a {
     text-decoration: none !important;
@@ -178,5 +178,9 @@ body {
     .list-group-item > div{
         display: grid;
         grid-template-columns: 1fr;
+    }
+
+    .rodape {
+        font-size: 0.7rem;
     }
 }

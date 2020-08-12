@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/conteudo.css">
-    <title>Panda's Lanches</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/conteudo.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+        <title>Panda's Lanches</title>
+    </head>
 <body>
     <header class="cabecalho">
         <img class="logo" src="img/logo.png"/>
@@ -20,7 +21,9 @@
     <main class="principal">
         <div class="conteudo">
             <nav class="modulos">
-
+                <ul class="list-group list-group-flush" >
+                    <li class="list-group-item" id="list"></li>
+                </ul>
             </nav> 
             <div class="rede">
                 <a href="https://api.whatsapp.com/send?phone=5522998935802&text=Boa%20noite!">
@@ -32,6 +35,9 @@
             </div>       
         </div>
     </main>
-    <footer class="rodape"></footer>
+    <footer class="rodape">
+        <a href="https://pedrohib.github.io/Portfolio/">Site desenvolvido por Pedro HIB</a>
+    </footer>
+    <script type="text/javascript" src="js/delivery.js"></script>
 </body>
 </html>
