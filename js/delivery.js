@@ -259,5 +259,5 @@ var list = document.querySelector('#list')
 
 
 for(var i=0; i<delivery.length; i++) {
-    list.innerHTML += `${delivery[i].bairro} ${delivery[i].valor} <br><br>`; 
+    list.innerHTML += `${delivery[i].bairro} <div id="valor">${delivery[i].valor}</div> <hr>`; 
 }
