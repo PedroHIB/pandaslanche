@@ -11,7 +11,7 @@
     .navegacao > a {
 
         font-weight: 100;
-        font-size: 1.0rem;
+        font-size: 1.2rem;
         background-color: #2d83c9;
         padding: 5px 5px;
         display: flex;
@@ -19,18 +19,18 @@
         align-items: center;
     }
     .deliveryimg {
-        height: 10px;
-        width: 20px;
+        height: 15px;
+        width: 25px;
         margin-left: 5px;
     }
     .promocaoimg {
-        height: 6x;
-        width: 9px;
+        height: 7x;
+        width: 10px;
         margin-left: 5px;
     }
     .lancheimg {
-        height: 10px;
-        width: 15px;
+        height: 11px;
+        width: 16px;
         margin-left: 5px;
     }
 }
